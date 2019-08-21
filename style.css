@@ -1,6 +1,7 @@
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
+
 .container {
   position: relative;
   background-image: url('images/main_image.jpg');
@@ -14,17 +15,19 @@ body {
 .nav-flex {
   font-size: 16px;
   border: 1px solid rgb(109, 109, 109);
-  background: linear-gradient(
-    to bottom,
-    rgb(134, 134, 134) 5%,
-    rgb(128, 128, 128) 50%,
-    rgb(107, 107, 107) 51%,
-    rgb(99, 99, 99) 8%,
-    rgb(121, 121, 121) 94%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgb(134, 134, 134) 5%,
+      rgb(128, 128, 128) 50%,
+      rgb(107, 107, 107) 51%,
+      rgb(99, 99, 99) 8%,
+      rgb(121, 121, 121) 94%
+    );
   border-right: 1px solid rgba(75, 75, 75, 0.5);
   color: rgba(255, 255, 255, 0.9);
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.753),
+  text-shadow:
+    0 0 1px rgba(0, 0, 0, 0.753),
     1px 1px 1px rgba(66, 66, 66, 0.651);
   cursor: pointer;
   text-align: center;
@@ -53,14 +56,15 @@ body {
 
 input {
   border: 1px solid rgb(109, 109, 109);
-  background: linear-gradient(
-    to bottom,
-    rgb(134, 134, 134) 5%,
-    rgb(128, 128, 128) 50%,
-    rgb(107, 107, 107) 51%,
-    rgb(99, 99, 99) 8%,
-    rgb(121, 121, 121) 94%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgb(134, 134, 134) 5%,
+      rgb(128, 128, 128) 50%,
+      rgb(107, 107, 107) 51%,
+      rgb(99, 99, 99) 8%,
+      rgb(121, 121, 121) 94%
+    );
   border-radius: 8px;
   border: 1px solid #999;
   width: 105px;
@@ -68,18 +72,17 @@ input {
   background-size: 16px;
   background-repeat: no-repeat;
   background-image: url('images/search_icon.png');
-  
 }
 
 input:focus {
-    border-color: rgba(68, 64, 61, 0.8);
-    box-shadow: 0 1px 1px rgba(102, 99, 98, 0.075) inset, 0 0 8px rgba(44, 35, 29, 0.6);
-    outline: 0 none;
-  }
+  border-color: rgba(68, 64, 61, 0.8);
+  box-shadow: 0 1px 1px rgba(102, 99, 98, 0.075) inset, 0 0 8px rgba(44, 35, 29, 0.6);
+  outline: 0 none;
+}
 
 .nav-item-1 {
   border-right: 1px solid #999;
-  }
+}
 
 .nav-item-8 {
   padding: 0 5px;
@@ -90,13 +93,14 @@ img.apple-logo {
   width: 20px;
   padding-top: -3px;
 }
+
 .nav-text {
-  
+
 }
 
 .main-text-header {
   position: relative;
-  top:  216px;
+  top: 216px;
   max-width: 983px;
   height: 93px;
   margin: 0 auto;
@@ -116,11 +120,12 @@ img.apple-logo {
 .your-verse {
   background-image: url('images/img_your_verse.png');
   position: relative;
-  margin:  0 auto;
+  margin: 0 auto;
   top: 250px;
   height: 31px;
   max-width: 983px;
 }
+
 .your-verse:hover,
 .secondary-text,
 .main-text-header {
@@ -140,7 +145,7 @@ img.apple-logo {
   height: auto;
   flex: 1;
   border-top: 2px solid white;
-  border-right: 3px solid white;;
+  border-right: 3px solid white;
 }
 
 .flex-item:hover {
@@ -176,7 +181,7 @@ footer {
   position: relative;
   top: 23px;
   max-width: 982px;
-  height:auto;
+  height: auto;
 }
 
 a:link {
@@ -205,7 +210,6 @@ a:link:hover {
 
 .footer-text-bottom {
   margin-top: 10px;
-  
 }
 
 .footer-bottom-container {
