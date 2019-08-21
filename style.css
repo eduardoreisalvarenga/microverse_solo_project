@@ -1,7 +1,9 @@
+/* Default style for all the text in body */
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
+/* Main container which contains my navbar and main images */
 .container {
   position: relative;
   background-image: url('images/main_image.jpg');
@@ -12,6 +14,7 @@ body {
   max-width: 1442px;
 }
 
+/* Navbar styles */
 .nav-flex {
   font-size: 16px;
   border: 1px solid rgb(109, 109, 109);
@@ -40,24 +43,35 @@ body {
   height: 35px;
 }
 
+/* Nav style for all items */
 .nav-item {
   flex: 1;
 }
 
+/* Nav style for items from 1 to 7 | Input is excluded */
 .nav-style {
   padding-top: 7px;
   border-right: 1px solid #999;
 }
 
+/* Style for my first item | Apple Logo */
 .nav-item-1 {
   border-right: 1px solid #999;
 }
 
+/* Style for apple logo */
+img.apple-logo {
+  width: 20px;
+  padding-top: -3px;
+}
+
+/* Hover effects for navbar */
 .nav-style:hover,
 .nav-item-1:hover {
   background: rgba(0, 0, 0, 0.4);
 }
 
+/* Style for the input inside my navbar */
 input {
   border: 1px solid rgb(109, 109, 109);
   background:
@@ -77,22 +91,20 @@ input {
   background-image: url('images/search_icon.png');
 }
 
+/* Style for input border */
 input:focus {
   border-color: rgba(68, 64, 61, 0.8);
   box-shadow: 0 1px 1px rgba(102, 99, 98, 0.075) inset, 0 0 8px rgba(44, 35, 29, 0.6);
   outline: 0 none;
 }
 
+/* Style for my item number 8 | Div which contains input  */
 .nav-item-8 {
   padding: 0 5px;
   margin-top: 5px;
 }
 
-img.apple-logo {
-  width: 20px;
-  padding-top: -3px;
-}
-
+/* Style for my main image | Image representing h1 */
 .main-text-header {
   position: relative;
   top: 216px;
@@ -103,6 +115,7 @@ img.apple-logo {
   background-repeat: no-repeat;
 }
 
+/* Style for my secondary image | Image representing h2 */
 .secondary-text {
   position: relative;
   top: 225px;
@@ -112,6 +125,7 @@ img.apple-logo {
   background-image: url('images/img_secondary_text.png');
 }
 
+/* Style for the image representing my h3 */
 .your-verse {
   background-image: url('images/img_your_verse.png');
   position: relative;
@@ -121,20 +135,22 @@ img.apple-logo {
   max-width: 983px;
 }
 
+/* Hover effects for my Headers | Images*/
 .your-verse:hover,
 .secondary-text,
 .main-text-header {
   cursor: pointer;
 }
 
+/* Container for my secundary options, bellow main container */
 .flex-container {
-  background-color: orange;
   margin: 0 auto;
   display: flex;
   height: 204px;
   max-width: 1442px;
 }
 
+/* Style for my flex items */
 .flex-item {
   width: 100%;
   height: auto;
@@ -143,10 +159,13 @@ img.apple-logo {
   border-right: 3px solid white;
 }
 
+/* Hover effects */
 .flex-item:hover {
   cursor: pointer;
 }
 
+/* Flex items from left to right  */
+/* ************************************************* */
 .item-1 {
   background-image: url('images/img_1.jpg');
   background-repeat: no-repeat;
@@ -169,7 +188,9 @@ img.apple-logo {
   background-image: url('images/img_4.jpg');
   background-size: cover;
 }
+/* ************************************************* */
 
+/* Main Footer */
 footer {
   color: #6e6e6e;
   margin: 0 auto;
@@ -179,39 +200,46 @@ footer {
   height: auto;
 }
 
+/* Style for all links */
 a:link {
   text-decoration: none;
   color: #08c;
 }
 
+/* Hover effect for all links */
 a:link:hover {
   text-decoration: underline;
 }
 
+/* Top container inside footer */
 .footer-top-container {
   font-size: 11px;
   max-width: 982px;
   height: auto;
 }
-
+/* Left side text */
 .footer-text-left {
   margin-top: 23px;
   margin-right: 30px;
 }
 
+/* right side text */
 .footer-text-right {
   font-size: 11px;
 }
 
+/* bottom text */
 .footer-text-bottom {
   margin-top: 10px;
 }
 
+/* bottom container inside footer */
 .footer-bottom-container {
   margin-top: 10px;
   font-size: 11px;
 }
 
+/* Usa logo inside footer */
 .usa-logo {
   vertical-align: middle;
 }
