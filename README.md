@@ -11,8 +11,8 @@ This is my solution to Microverse's fourth project. It is a clone of an old vers
 
 ### Screenshot 1
 
-![Screenshot 1](screenshots/1.png)
+![Screenshot 1](screenshots/scrennshot_1.png)
 
 ### Screenshot 2
 
-![Screenshot 2](screenshots/2.png)
+![Screenshot 2](screenshots/screenshot_2.png)
